@@ -33,6 +33,15 @@ describe("problem2", () => {
   test("case2", () => {
     expect(problem2("zyelleyz")).toEqual("");
   });
+  test("case3", () => {
+    expect(problem2("abccdef")).toEqual("abdef");
+  });
+  test("case4", () => {
+    expect(problem2("aaaaa")).toEqual("a");
+  });
+  test("case5", () => {
+    expect(problem2("cccc")).toEqual("");
+  });
 });
 
 // describe("problem3", () => {
