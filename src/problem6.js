@@ -1,5 +1,6 @@
 function problem6(forms) {
-  var answer;
+  var answer = [];
+
   return answer;
 }
 
